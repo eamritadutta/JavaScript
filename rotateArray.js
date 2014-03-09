@@ -3,6 +3,7 @@ var rotateArray = function (arr, n) {
 		if (arguments.length != 2) { return "Please try again with 2 arguments"; }
 
 		if (!arr) { return "Please try again with a non-null array"; }
+		
 		if (!n) { return "Please try again with non-null number agrument for the # of places to rotate the array"; }
 
 		if (arr.length === 0) { return "Please try again with length of array > 0"; }
