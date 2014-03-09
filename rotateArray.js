@@ -16,25 +16,3 @@ var rotateArray = function (arr, n) {
 
 		return arr;
 };
-undefined
-var y = rotateArray();
-undefined
-y
-"Please try again with 2 arguments"
-var y = rotateArray([]);
-undefined
-y
-"Please try again with 2 arguments"
-var y = rotateArray([], -3);
-undefined
-y
-"Please try again with length of array > 0"
-var y = rotateArray([1, 2, 3, 5, 6], -3);
-undefined
-y
-"Please try again with value of n as a +ve number"
-var y = rotateArray([1, 2, 3, 5, 6], 3);
-undefined
-y
-[5, 6, 1, 2, 3]
-
